@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		781A7BEF27C17588005E3716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781A7BEE27C17588005E3716 /* AppDelegate.swift */; };
 		781A7BF127C17588005E3716 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781A7BF027C17588005E3716 /* SceneDelegate.swift */; };
-		781A7BF327C17588005E3716 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781A7BF227C17588005E3716 /* ViewController.swift */; };
-		781A7BF627C17588005E3716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781A7BF427C17588005E3716 /* Main.storyboard */; };
+		781A7BF327C17588005E3716 /* WithoutSnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781A7BF227C17588005E3716 /* WithoutSnapKitViewController.swift */; };
 		781A7BF827C1758A005E3716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781A7BF727C1758A005E3716 /* Assets.xcassets */; };
 		781A7BFB27C1758A005E3716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781A7BF927C1758A005E3716 /* LaunchScreen.storyboard */; };
+		78DB1A7327C17DA3000DD193 /* SnapKitInsetOffsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DB1A7227C17DA3000DD193 /* SnapKitInsetOffsetViewController.swift */; };
+		78DB1A9527C2E195000DD193 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DB1A9427C2E195000DD193 /* TabBarController.swift */; };
+		8C843B2FD8DA7C91B4EBDEF8 /* Pods_SnapKitExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026FCBFEEE29136FDFC586AE /* Pods_SnapKitExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		026FCBFEEE29136FDFC586AE /* Pods_SnapKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		781A7BEB27C17588005E3716 /* SnapKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		781A7BEE27C17588005E3716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		781A7BF027C17588005E3716 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		781A7BF227C17588005E3716 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		781A7BF527C17588005E3716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		781A7BF227C17588005E3716 /* WithoutSnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutSnapKitViewController.swift; sourceTree = "<group>"; };
 		781A7BF727C1758A005E3716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		781A7BFA27C1758A005E3716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		781A7BFC27C1758A005E3716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DB1A7227C17DA3000DD193 /* SnapKitInsetOffsetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitInsetOffsetViewController.swift; sourceTree = "<group>"; };
+		78DB1A9427C2E195000DD193 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		897A35416BE5BEA054C317CA /* Pods-SnapKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKitExample.debug.xcconfig"; path = "Target Support Files/Pods-SnapKitExample/Pods-SnapKitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		AC09307FF4657C669B75A82C /* Pods-SnapKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKitExample.release.xcconfig"; path = "Target Support Files/Pods-SnapKitExample/Pods-SnapKitExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C843B2FD8DA7C91B4EBDEF8 /* Pods_SnapKitExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				781A7BED27C17588005E3716 /* SnapKitExample */,
 				781A7BEC27C17588005E3716 /* Products */,
+				E312C0A0F40EA7A97406B4AD /* Pods */,
+				EB92361ACA32C8B7B7511483 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +67,31 @@
 			children = (
 				781A7BEE27C17588005E3716 /* AppDelegate.swift */,
 				781A7BF027C17588005E3716 /* SceneDelegate.swift */,
-				781A7BF227C17588005E3716 /* ViewController.swift */,
-				781A7BF427C17588005E3716 /* Main.storyboard */,
+				78DB1A9427C2E195000DD193 /* TabBarController.swift */,
+				781A7BF227C17588005E3716 /* WithoutSnapKitViewController.swift */,
+				78DB1A7227C17DA3000DD193 /* SnapKitInsetOffsetViewController.swift */,
 				781A7BF727C1758A005E3716 /* Assets.xcassets */,
 				781A7BF927C1758A005E3716 /* LaunchScreen.storyboard */,
 				781A7BFC27C1758A005E3716 /* Info.plist */,
 			);
 			path = SnapKitExample;
+			sourceTree = "<group>";
+		};
+		E312C0A0F40EA7A97406B4AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				897A35416BE5BEA054C317CA /* Pods-SnapKitExample.debug.xcconfig */,
+				AC09307FF4657C669B75A82C /* Pods-SnapKitExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB92361ACA32C8B7B7511483 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				026FCBFEEE29136FDFC586AE /* Pods_SnapKitExample.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 781A7BFF27C1758A005E3716 /* Build configuration list for PBXNativeTarget "SnapKitExample" */;
 			buildPhases = (
+				FA82374DD7A49BBAD2EA8FF6 /* [CP] Check Pods Manifest.lock */,
 				781A7BE727C17588005E3716 /* Sources */,
 				781A7BE827C17588005E3716 /* Frameworks */,
 				781A7BE927C17588005E3716 /* Resources */,
+				F2F276EE6A5FF583E07896D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +156,69 @@
 			files = (
 				781A7BFB27C1758A005E3716 /* LaunchScreen.storyboard in Resources */,
 				781A7BF827C1758A005E3716 /* Assets.xcassets in Resources */,
-				781A7BF627C17588005E3716 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2F276EE6A5FF583E07896D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapKitExample/Pods-SnapKitExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapKitExample/Pods-SnapKitExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapKitExample/Pods-SnapKitExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA82374DD7A49BBAD2EA8FF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapKitExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		781A7BE727C17588005E3716 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				781A7BF327C17588005E3716 /* ViewController.swift in Sources */,
+				781A7BF327C17588005E3716 /* WithoutSnapKitViewController.swift in Sources */,
 				781A7BEF27C17588005E3716 /* AppDelegate.swift in Sources */,
 				781A7BF127C17588005E3716 /* SceneDelegate.swift in Sources */,
+				78DB1A9527C2E195000DD193 /* TabBarController.swift in Sources */,
+				78DB1A7327C17DA3000DD193 /* SnapKitInsetOffsetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		781A7BF427C17588005E3716 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				781A7BF527C17588005E3716 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		781A7BF927C1758A005E3716 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +348,7 @@
 		};
 		781A7C0027C1758A005E3716 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 897A35416BE5BEA054C317CA /* Pods-SnapKitExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +359,6 @@
 				INFOPLIST_FILE = SnapKitExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +376,7 @@
 		};
 		781A7C0127C1758A005E3716 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC09307FF4657C669B75A82C /* Pods-SnapKitExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +387,6 @@
 				INFOPLIST_FILE = SnapKitExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
